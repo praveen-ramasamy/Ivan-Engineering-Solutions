@@ -1354,3 +1354,41 @@ a:focus {
 .scroll-top i {
   font-size: 24px;
 }
+#our-works h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+#our-works p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Container for each work item */
+.work-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+/* Animation on hover */
+.work-item img {
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  border-radius: 8px;
+}
+
+.work-item:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.work-item:hover::before {
+  opacity: 0.8;
+}
+
+/* Optional: Adding a subtle shadow to images */
+.work-item img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
