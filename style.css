@@ -1416,7 +1416,9 @@ a:focus {
   height: 60vh;
   /* object-fit: none; */
 }
-
+.custom-carousel h5{
+  font-family: 'Times New Roman', Times, serif;
+}
 /* For larger screens (web/desktop) */
 @media (min-width: 768px) {
   .custom-carousel .carousel-item img {
