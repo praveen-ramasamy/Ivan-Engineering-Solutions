@@ -61,7 +61,7 @@
 
 <body>
   <div class="hero_area">
-    <header class="header_section" style=" background-color: #102236; border-bottom: 1px solid white; padding: 0; ">
+    <header class="header_section" style=" background-color: #102236; border-bottom: 3px solid white; padding: 0; ">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
@@ -102,7 +102,7 @@
 
     <section>
       <div class="bd-example custom-carousel">
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-interval="1700">
+        <div id="carouselExampleCaptions" class="carousel carousel-fade" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -110,21 +110,21 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="carousel_bg_img_2.jpeg" class="d-block w-100" alt="..." style="filter:brightness(40%); background-color: #000;">
+              <img src="carousel_bg_img_2.jpeg" class="d-block w-100" alt="..." style="filter:brightness(60%);">
               <div class="carousel-caption d-md-block">
-                <h5 style=" font-family: 'FontAwesome'; ">MAKE YOUR BETTER INNOVATION</h5>
+                <h5 style="font-family: fangsong;">MAKE YOUR BETTER INNOVATION</h5>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="carousel_bg_img_1.jpeg" class="d-block w-100" alt="..." style="filter:brightness(40%); background-color: #000;">
+              <img src="carousel_bg_img_1.jpeg" class="d-block w-100" alt="..." style="filter:brightness(60%);">
               <div class="carousel-caption d-md-block">
-                <h5 style=" font-family: 'FontAwesome'; ">INNOVATION LEADS TO PROGRESS</h5>
+                <h5 style="font-family: fangsong;">INNOVATION LEADS TO PROGRESS</h5>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="carousel_bg_img_3.jpeg" class="d-block w-100" alt="..." style="filter:brightness(40%); background-color: #000;">
+              <img src="carousel_bg_img_3.jpeg" class="d-block w-100" alt="..." style="filter:brightness(60%);">
               <div class="carousel-caption d-md-block">
-                <h5 style=" font-family: 'FontAwesome'; ">INNOVATION IS THE ONLY WAY TO WIN</h5>
+                <h5 style="font-family: fangsong;">INNOVATION IS THE ONLY WAY TO WIN</h5>
               </div>
             </div>
           </div>
@@ -152,19 +152,19 @@
             <div class="carousel-item active">
               <img src="carousel_bg_img_2.jpeg" class="d-block w-100" alt="..." style="filter:brightness(40%);">
               <div class="carousel-caption d-md-block">
-                <h5 style=" font-family: 'FontAwesome'; ">MAKE YOUR BETTER INNOVATION</h5>
+                <h5 style=" font-family: 'cursive'; ">MAKE YOUR BETTER INNOVATION</h5>
               </div>
             </div>
             <div class="carousel-item">
               <img src="carousel_bg_img_1.jpeg" class="d-block w-100" alt="..." style="filter:brightness(40%);">
               <div class="carousel-caption d-md-block">
-                <h5 style=" font-family: 'FontAwesome'; ">INNOVATION LEADS TO PROGRESS</h5>
+                <h5 style=" font-family: 'cursive'; ">INNOVATION LEADS TO PROGRESS</h5>
               </div>
             </div>
             <div class="carousel-item">
               <img src="carousel_bg_img_3.jpeg" class="d-block w-100" alt="..." style="filter:brightness(40%);">
               <div class="carousel-caption d-md-block">
-                <h5 style=" font-family: 'FontAwesome'; ">INNOVATION IS THE ONLY WAY TO WIN</h5>
+                <h5 style=" font-family: 'cursive'; ">INNOVATION IS THE ONLY WAY TO WIN</h5>
               </div>
             </div>
           </div>
@@ -211,7 +211,7 @@
     </section> -->
   </div>
 
-  <section class="service_section layout_padding pt-5">
+  <section class="service_section layout_padding">
     <div class="container">
       <div class="heading_container text-center mb-4">
         <h2 class="mb-4">Our Services</h2>
@@ -688,6 +688,21 @@
   <!-- bootstrap js -->
   <script src="./bootstrap.js"></script>
   <script src="./scroll_top.js"></script>
+
+  <script>
+    $(document).ready(function(){
+  $('.carousel').slick({
+    dots: true,
+    infinite: true,
+    speed: 500, // Transition speed
+    fade: true, // Use fade effect
+    cssEase: 'linear',
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 2000, // Speed for autoplay
+  });
+});
+
+  </script>
 </body>
 
 </html>

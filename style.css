@@ -286,10 +286,10 @@ a:focus {
           align-items: center;
 }
 
-.slider_section #customCarousel1 {
+/* .slider_section #customCarousel1 {
   width: 100%;
   position: unset;
-}
+} */
 
 .slider_section .detail-box {
   text-align: center;
@@ -318,7 +318,7 @@ a:focus {
   width: 185px;
 }
 
-.slider_section .detail-box .btn-box .btn1 {
+/* .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 12px 15px;
   background-color: #5a2a8f;
@@ -327,9 +327,9 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid #5a2a8f;
-}
+} */
 
-.slider_section .detail-box .btn-box .btn1:hover {
+/* .slider_section .detail-box .btn-box .btn1:hover {
   color: #ffffff;
   -webkit-transform: translateY(-3px);
           transform: translateY(-3px);
@@ -337,9 +337,9 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
-}
+} */
 
-.slider_section .carousel-indicators {
+/* .slider_section .carousel-indicators {
   position: unset;
   margin: 0;
   -webkit-box-pack: center;
@@ -349,9 +349,9 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 45px;
-}
+} */
 
-.slider_section .carousel-indicators li {
+/* .slider_section .carousel-indicators li {
   background-color: #ffffff;
   width: 15px;
   height: 15px;
@@ -363,7 +363,7 @@ a:focus {
   width: 23px;
   height: 23px;
   background-color: #f8842b;
-}
+} */
 
 .service_section {
   text-align: center;
@@ -570,7 +570,7 @@ a:focus {
   color: #102236;
 }
 
-.client_section .box {
+/* .client_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -626,9 +626,9 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   padding: 85px 45px 15px 45px;
-}
+} */
 
-.client_section .carousel-indicators {
+/* .client_section .carousel-indicators {
   position: unset;
   margin: 0;
   -webkit-box-pack: center;
@@ -637,9 +637,9 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
+} */
 
-.client_section .carousel-indicators li {
+/* .client_section .carousel-indicators li {
   background-color: #102236;
   width: 10px;
   height: 10px;
@@ -651,7 +651,7 @@ a:focus {
   width: 20px;
   height: 20px;
   background-color: #f8842b;
-}
+} */
 
 .contact_section {
   position: relative;
@@ -1413,7 +1413,7 @@ a:focus {
 .custom-carousel .carousel-item img {
   width: 100%;
   /* height: auto; */
-  height: 70vh;
+  height: 60vh;
   /* object-fit: none; */
 }
 
@@ -1451,7 +1451,7 @@ a:focus {
   }
 
   .custom-carousel h5 {
-    font-size: 1.2rem; /* Smaller font for mobile */
+    font-size: 1.5rem; /* Smaller font for mobile */
   }
 }
 
@@ -1480,4 +1480,3 @@ a:focus {
     font-size: 2.2rem; /* Larger font for large devices */
   }
 }
-
