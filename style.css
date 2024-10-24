@@ -82,7 +82,7 @@ a:focus {
 }
 
 /*header section*/
-.hero_area {
+/* .hero_area {
   position: relative;
   min-height: 100vh;
   display: -webkit-box;
@@ -92,15 +92,13 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  /* background-color: #102236; */
-  /* border-radius: 0 0 350px 0; */
   background-image: 
   linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
   url('./home_bg.jpeg');
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center; 
-}
+} */
 
 .sub_page .hero_area {
   min-height: auto;
@@ -1340,7 +1338,7 @@ a:focus {
   background-color: #f8842b; /* Your preferred color */
   color: white;
   font-size: 24px;
-  padding: 9px 16px;
+  padding: 5px 10px;
   border-radius: 50%;
   text-align: center;
   z-index: 1000; /* On top of everything */
@@ -1387,8 +1385,57 @@ a:focus {
 .work-item:hover::before {
   opacity: 0.8;
 }
-
-/* Optional: Adding a subtle shadow to images */
 .work-item img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.client-logo {
+  width: 100%; 
+  max-width: 150px; 
+  height: 100px; 
+  object-fit: contain; 
+}
+
+@media (min-width: 768px) {
+  .client-logo {
+    max-width: 180px; 
+    height: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  .client-logo {
+    max-width: 200px; 
+    height: 140px;
+  }
+}
+
+/* Default for mobile devices */
+.custom-carousel .carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* For larger screens (web/desktop) */
+@media (min-width: 768px) {
+  .custom-carousel .carousel-item img {
+    height: 70vh; /* 70% of the viewport height */
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .custom-carousel .carousel-item img {
+    height: 80vh; /* 80% of the viewport height for even larger screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-carousel .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
